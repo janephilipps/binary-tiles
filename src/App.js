@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Pixel from './components/Pixel';
-import logo from './logo.svg';
+import Tile from './components/Tile';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Pixel />
+        <Tile />
       </div>
     );
   }
