@@ -7,7 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <Tile
-          size={10}
+          number={300}
+          size={4}
         />
       </div>
     );
