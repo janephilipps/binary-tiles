@@ -14,14 +14,18 @@ class Tile extends Component {
       size
     } = this.props;
 
+    let array = new Array(size).fill();
+
+    let rows = array.map((i) => (
+      <PixelRow
+        pixelGroup={array}
+      />
+    ));
+
+
     return (
       <div className="Tile">
-        <PixelRow
-          pixelGroup={[true, false, true, true, false]}
-        />
-        <PixelRow
-          pixelGroup={[false, true, true, true, true]}
-        />
+        {rows}
       </div>
     );
   }
