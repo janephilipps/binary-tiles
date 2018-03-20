@@ -50,7 +50,6 @@ class Tile extends Component {
       number
     } = this.props;
 
-    // let array = new Array(size).fill();
     let array = this._convertToBinary(number, size);
     let rowArrays = this._splitBinaryArray(array, size);
 
@@ -59,9 +58,6 @@ class Tile extends Component {
         pixelGroup={array}
       />
     ));
-
-    // debugger;
-
 
     return (
       <div className="Tile">

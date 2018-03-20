@@ -20,7 +20,7 @@ class Input extends Component {
 
     return (
       <div className="Input">
-        <input type="number" placeholder={placeholder} onChange={this._handleChange.bind(this)}></input>
+        <input type="number" max="4" placeholder={placeholder} onChange={this._handleChange.bind(this)}></input>
       </div>
     );
   }

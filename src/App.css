@@ -2,9 +2,14 @@
   text-align: center;
 }
 
+.Tile {
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
 .Pixel {
-  width: 25px;
-  height: 25px;
+  width: 1px;
+  height: 1px;
   display: inline-block;
   margin-bottom: -4px;
 }
